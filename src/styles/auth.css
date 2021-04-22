@@ -1,0 +1,28 @@
+.auth_page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #fdfdfd;
+}
+.auth_page form {
+  background: #fff;
+  position: absolute;
+  max-width: 400px;
+  width: 100%;
+  padding: 50px 25px;
+  border: 1px solid #ddd;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.auth_page .pass{
+  position: relative;
+}
+.auth_page .pass small{
+  position: absolute;
+  top:50%;
+  right:5px;
+  transform: translateY(-50%);
+  cursor: pointer;
+
+}
